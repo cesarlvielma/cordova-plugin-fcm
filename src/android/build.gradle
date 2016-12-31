@@ -1,18 +1,14 @@
 buildscript {
-	repositories {
-            jcenter()
-	    mavenLocal()
-        }
+    repositories {
+        mavenCentral()
+    }
     dependencies {
         classpath 'com.google.gms:google-services:3.0.0'
     }
 }
 repositories {
-        jcenter()
-	mavenLocal()
+    mavenCentral()
 }
-
-
-apply plugin: 'com.google.gms.google-services'
-
-
+dependencies {
+    compile 'me.leolin:ShortcutBadger:1.1.4@aar'
+}
