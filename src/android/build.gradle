@@ -10,3 +10,6 @@ buildscript {
 repositories {
     mavenCentral()
 }
+
+apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
+
