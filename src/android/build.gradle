@@ -3,13 +3,9 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.1.0'
         classpath 'com.google.gms:google-services:3.0.0'
     }
 }
 repositories {
     mavenCentral()
 }
-
-apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
-
